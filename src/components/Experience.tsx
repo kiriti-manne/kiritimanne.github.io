@@ -40,11 +40,11 @@ const Experience = () => {
               </span>
               <span className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-primary" />
-                B2B Focus
+                Full Funnel
               </span>
               <span className="flex items-center gap-2">
                 <span className="w-2 h-2 rounded-full bg-primary" />
-                Full-Stack GTM
+                Sales & Marketing
               </span>
             </div>
           </div>
