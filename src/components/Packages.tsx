@@ -7,9 +7,7 @@ const Packages = () => {
       commitment: "~4 hours/month",
       bestFor: "Teams who need guidance, clarity, and quick access to an experienced GTM operator.",
       features: [
-        "Monthly strategy call",
-        "On-demand support for quick questions",
-        "Ad-hoc reviews",
+        "Monthly strategy call with on-demand support for questions and ad-hoc reviews",
         "OR weekly syncs"
       ],
       highlighted: false
@@ -60,18 +58,8 @@ const Packages = () => {
           {packages.map((pkg, index) => (
             <div 
               key={index}
-              className={`relative p-8 rounded-2xl border transition-all duration-300 ${
-                pkg.highlighted 
-                  ? 'border-primary bg-primary/5 glow' 
-                  : 'border-border card-gradient hover:border-primary/30'
-              }`}
+              className="relative p-8 rounded-2xl border border-border card-gradient hover:border-primary/30 transition-all duration-300 flex flex-col h-full"
             >
-              {pkg.highlighted && (
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-primary text-primary-foreground text-xs font-semibold rounded-full">
-                  Most Popular
-                </div>
-              )}
-              
               <div className="mb-6">
                 <div className="flex items-center gap-2 mb-2">
                   <h3 className="text-xl font-semibold">{pkg.name}</h3>
@@ -88,7 +76,7 @@ const Packages = () => {
                 {pkg.bestFor}
               </p>
 
-              <ul className="space-y-3 mb-8">
+              <ul className="space-y-3 mb-8 flex-grow">
                 {pkg.features.map((feature, idx) => (
                   <li key={idx} className="flex items-start gap-3 text-sm">
                     <Check className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
@@ -99,11 +87,7 @@ const Packages = () => {
 
               <a 
                 href="#contact"
-                className={`block w-full py-3 text-center rounded-lg font-medium transition-colors ${
-                  pkg.highlighted
-                    ? 'bg-primary text-primary-foreground hover:opacity-90'
-                    : 'bg-secondary text-secondary-foreground hover:bg-secondary/80'
-                }`}
+                className="block w-full py-3 text-center rounded-lg font-medium transition-all bg-primary text-primary-foreground hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/25 mt-auto"
               >
                 Get Started
               </a>
