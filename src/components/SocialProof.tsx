@@ -6,7 +6,7 @@ import samsaraLogo from "@/assets/logos/samsara_logo.png";
 const logos = [
   { src: lightlabsLogo, alt: "Light Labs", lightBg: false },
   { src: tenorLogo, alt: "Tenor", lightBg: true, bigger: true },
-  { src: webdoxLogo, alt: "Webdox", lightBg: true },
+  { src: webdoxLogo, alt: "Webdox", lightBg: false },
   { src: samsaraLogo, alt: "Samsara", lightBg: false },
 ];
 
