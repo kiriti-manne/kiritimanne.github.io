@@ -8,14 +8,14 @@ const Experience = () => {
       description: "Clear go-to-market strategy from awareness to revenue"
     },
     {
-      icon: Database,
-      title: "Data & AI",
-      description: "Real technical depth in data infrastructure and AI automation"
-    },
-    {
       icon: Zap,
       title: "Hands-On Execution",
       description: "Not just advice—actual implementation and optimization"
+    },
+    {
+      icon: Database,
+      title: "Data & AI",
+      description: "Real technical depth in data infrastructure and AI automation"
     }
   ];
 
