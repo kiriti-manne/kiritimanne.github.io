@@ -36,7 +36,7 @@ const getFilterStyle = (filter: string) => {
 const getSizeClasses = (size?: string) => {
   switch (size) {
     case "large":
-      return "h-8 md:h-10 max-w-[180px] md:max-w-[200px]";
+      return "h-10 md:h-14 max-w-[200px] md:max-w-[240px]";
     case "medium":
       return "h-7 md:h-9 max-w-[140px] md:max-w-[180px]";
     default:
