@@ -29,7 +29,7 @@ const HowIWork = () => {
       <div className="container max-w-4xl">
         <div className="text-center mb-12">
           <p className="text-primary font-medium tracking-wide uppercase text-sm mb-4">
-            How I Work
+            Approach
           </p>
           <h2 className="text-4xl md:text-5xl font-serif mb-6">
             Built for Results
