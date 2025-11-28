@@ -72,10 +72,13 @@ const Services = () => {
 
         {/* Full-Funnel GTM */}
         <div className="mb-20">
-          <h3 className="text-2xl font-serif mb-8 flex items-center gap-3">
+          <h3 className="text-2xl font-serif mb-4 flex items-center gap-3">
             <span className="text-primary">01</span>
             Full-Funnel GTM
           </h3>
+          <p className="text-muted-foreground mb-8 max-w-2xl">
+            End-to-end design and execution of the revenue engine across awareness, demand, pipeline and revenue. Covers inbound, outbound and sales.
+          </p>
           
           <div className="grid md:grid-cols-3 gap-6">
             {Object.entries(gtmServices).map(([key, section]) => (
