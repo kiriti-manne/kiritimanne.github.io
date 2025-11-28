@@ -47,8 +47,8 @@ const HowIWork = () => {
                   <item.icon className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="font-semibold mb-2">{item.title}</h3>
-                  <p className="text-muted-foreground text-sm">{item.description}</p>
+                  <h3 className="font-semibold mb-2 tracking-wide">{item.title}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{item.description}</p>
                 </div>
               </div>
             </div>
