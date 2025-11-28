@@ -1,12 +1,12 @@
 import lightlabsLogo from "@/assets/logos/lightlabs_logo.png";
 import tenorLogo from "@/assets/logos/tenor_transparent.png";
-import webdoxLogo from "@/assets/logos/webdox_logo.png";
+import webdoxLogo from "@/assets/logos/webdox_transparent.png";
 import samsaraLogo from "@/assets/logos/samsara_logo.png";
 
 const logos = [
   { src: lightlabsLogo, alt: "Light Labs", filter: "standard" },
   { src: tenorLogo, alt: "Tenor", filter: "standard", size: "large" },
-  { src: webdoxLogo, alt: "Webdox", filter: "darkBg", size: "medium" },
+  { src: webdoxLogo, alt: "Webdox", filter: "standard", size: "medium" },
   { src: samsaraLogo, alt: "Samsara", filter: "standard" },
 ];
 
