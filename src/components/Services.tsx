@@ -73,7 +73,7 @@ const Services = () => {
             <span className="text-primary">01</span>
             Full-Funnel GTM
           </h3>
-          <p className="text-muted-foreground mb-8 max-w-2xl">
+          <p className="text-muted-foreground mb-8">
             End-to-end design and execution of the revenue engine across awareness, demand, pipeline and revenue. Covers inbound, outbound and sales.
           </p>
           
