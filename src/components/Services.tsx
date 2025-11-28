@@ -104,7 +104,7 @@ const Services = () => {
             Data, Analytics & Automation
           </h3>
           <p className="text-muted-foreground mb-8 max-w-2xl">
-            The infrastructure, insights, and automation that power the GTM system.
+            The infrastructure, insights, and automation that fuel your growth engine.
           </p>
           
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
