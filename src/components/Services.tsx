@@ -113,7 +113,7 @@ const Services = () => {
                 key={index}
                 className="p-5 rounded-xl border border-border hover:border-primary/30 transition-colors bg-card/50"
               >
-                <h4 className="font-semibold text-lg mb-3 text-primary">{service.category}</h4>
+                <h4 className="font-semibold text-lg mb-3 text-foreground">{service.category}</h4>
                 <ul className="space-y-2">
                   {service.items.map((item, idx) => (
                     <li key={idx} className="flex items-start gap-2 text-base text-muted-foreground">
