@@ -27,10 +27,7 @@ const Navbar = () => {
       }`}
     >
       <div className="container px-6 py-4">
-        <div className="flex items-center justify-between">
-          <a href="#" className="text-lg font-serif font-semibold text-foreground">
-            Kiriti Manne
-          </a>
+        <div className="flex items-center justify-end gap-8">
           <ul className="hidden md:flex items-center gap-8">
             {navItems.map((item) => (
               <li key={item.href}>
@@ -44,7 +41,7 @@ const Navbar = () => {
             ))}
           </ul>
           <a
-            href="mailto:kiriti@example.com"
+            href="#contact"
             className="hidden md:inline-flex px-4 py-2 text-sm font-medium bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity"
           >
             Get in Touch
