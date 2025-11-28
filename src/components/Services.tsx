@@ -43,7 +43,7 @@ const Services = () => {
     },
     {
       category: "Data Infrastructure",
-      items: ["Full stack GTM infrastructure (warehouse, pipelines, monitoring, governance)"]
+      items: ["Full stack GTM infrastructure (warehouse, pipelines, monitoring, governance)", "Includes architecture and execution"]
     },
     {
       category: "Dashboards & Analytics",
