@@ -67,7 +67,7 @@ const Navbar = () => {
       {/* Mobile menu */}
       {mobileMenuOpen && (
         <div className="md:hidden bg-background/95 backdrop-blur-md border-b border-border/50">
-          <ul className="flex flex-col px-6 py-4 gap-4">
+          <ul className="flex flex-col px-6 pt-1 pb-4 gap-3">
             {navItems.map((item) => (
               <li key={item.href}>
                 <a
