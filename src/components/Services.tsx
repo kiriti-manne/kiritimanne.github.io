@@ -81,13 +81,13 @@ const Services = () => {
             {Object.entries(gtmServices).map(([key, section]) => (
               <div key={key} className="p-6 rounded-xl card-gradient border border-border">
                 <div className="mb-4">
-                  <h4 className="font-semibold text-lg">{section.title}</h4>
-                  <p className="text-primary text-sm">{section.subtitle}</p>
+                  <h4 className="font-semibold text-xl">{section.title}</h4>
+                  <p className="text-primary text-base">{section.subtitle}</p>
                 </div>
                 <ul className="space-y-3">
                   {section.items.map((item, idx) => (
-                    <li key={idx} className="flex items-start gap-2 text-sm text-muted-foreground">
-                      <ArrowRight className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
+                    <li key={idx} className="flex items-start gap-2 text-base text-muted-foreground">
+                      <ArrowRight className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
                       <span>{item}</span>
                     </li>
                   ))}
@@ -113,10 +113,10 @@ const Services = () => {
                 key={index}
                 className="p-5 rounded-xl border border-border hover:border-primary/30 transition-colors bg-card/50"
               >
-                <h4 className="font-semibold mb-3 text-primary">{service.category}</h4>
+                <h4 className="font-semibold text-lg mb-3 text-primary">{service.category}</h4>
                 <ul className="space-y-2">
                   {service.items.map((item, idx) => (
-                    <li key={idx} className="text-sm text-muted-foreground">
+                    <li key={idx} className="text-base text-muted-foreground">
                       {item}
                     </li>
                   ))}
