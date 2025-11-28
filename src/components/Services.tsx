@@ -47,7 +47,7 @@ const Services = () => {
     },
     {
       category: "Dashboards & Analytics",
-      items: ["Marketing & sales dashboards", "Funnel analytics"]
+      items: ["Marketing & Sales dashboards", "Funnel analytics"]
     },
     {
       category: "AI & Automation",
