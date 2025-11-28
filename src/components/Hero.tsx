@@ -13,9 +13,6 @@ const Hero = () => {
       
       <div className="container relative z-10 px-6 py-20">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-primary font-medium tracking-wide uppercase text-sm mb-6 animate-fade-up">
-            Growth Advisory
-          </p>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif leading-[1.1] mb-8 animate-fade-up-delay-1">
             Build Revenue Systems <br />
             <span className="text-gradient italic">That Actually Scale</span>
