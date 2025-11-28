@@ -1,12 +1,12 @@
 import lightlabsLogo from "@/assets/logos/lightlabs_logo.png";
 import tenortherapyLogo from "@/assets/logos/tenortherapy_logo.png";
-import webdoxLogo from "@/assets/logos/webdox_logo.png";
+import webdoxLogo from "@/assets/logos/webdox_logo_grey.png";
 import samsaraLogo from "@/assets/logos/samsara_logo.png";
 
 const logos = [
   { src: lightlabsLogo, alt: "Light Labs", invertBg: false },
   { src: tenortherapyLogo, alt: "Tenor Therapy", invertBg: true },
-  { src: webdoxLogo, alt: "Webdox", invertBg: true },
+  { src: webdoxLogo, alt: "Webdox", invertBg: false },
   { src: samsaraLogo, alt: "Samsara", invertBg: false },
 ];
 
