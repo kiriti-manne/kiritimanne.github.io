@@ -21,6 +21,7 @@ const SocialProof = () => {
           className="h-6 md:h-8 max-w-[120px] md:max-w-[140px] w-auto object-contain transition-all duration-300 opacity-50 hover:opacity-80"
           style={{
             filter: "grayscale(100%) brightness(0) invert(1)",
+            mixBlendMode: "lighten",
           }}
         />
       ))}
