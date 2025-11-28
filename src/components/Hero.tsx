@@ -21,7 +21,7 @@ const Hero = () => {
             <span className="text-gradient italic">That Actually Scale</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up-delay-2">
-            I help B2B companies design, build, and optimize their go-to-market engine end-to-end—from demand generation to revenue—powered by data, analytics, and automation.
+            Design, build and optimize your end to end go-to-market engine, from demand generation to revenue, powered by data, analytics and automation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up-delay-3">
             <a 
