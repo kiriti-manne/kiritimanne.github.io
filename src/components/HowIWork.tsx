@@ -40,7 +40,7 @@ const HowIWork = () => {
           {principles.map((item, index) => (
             <div 
               key={index}
-              className="p-6 rounded-xl card-gradient border border-border"
+              className="p-6 rounded-xl card-gradient border border-border hover:border-primary hover:bg-primary/5 transition-all duration-300"
             >
               <div className="flex items-start gap-4">
                 <div className="p-2 rounded-lg bg-primary/10 text-primary">
