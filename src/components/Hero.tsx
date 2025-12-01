@@ -17,9 +17,7 @@ const Hero = () => {
             Build Revenue Systems <br />
             <span className="text-gradient italic">That Actually Scale</span>
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up-delay-2">
-            Design, build and optimize your end to end go-to-market engine, from demand generation to revenue, powered by data, analytics and automation.
-          </p>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed animate-fade-up-delay-2">Design, build and optimize your end to end go-to-market engine, from demand generation to revenue, powered by data, analytics and automation. Testing</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up-delay-3">
             <a href="#packages" className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg hover:opacity-90 transition-opacity">
               View Advisory Packages
