@@ -31,7 +31,7 @@ const Experience = () => {
               Nearly a decade of GTM experience
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              From seed-stage to post-IPO, expertise spans GTM strategy, execution, and data/AI to build, optimize and scale growth.
+              From seed-stage startups to post-IPO, expertise spans GTM strategy, execution, and data/AI. Includes helping Samsara scale from $10M to $1B+ ARR through IPO and advising several startups through their own growth phase.
             </p>
             <div className="flex items-center gap-6 text-sm text-muted-foreground">
               <span className="flex items-center gap-2">
