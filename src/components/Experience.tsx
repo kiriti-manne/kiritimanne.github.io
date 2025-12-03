@@ -15,7 +15,7 @@ const Experience = () => {
     {
       icon: Database,
       title: "Data & AI",
-      description: "Real technical depth in data infrastructure and AI automation"
+      description: "Real technical depth in data infrastructure, data science and AI automation"
     }
   ];
 
