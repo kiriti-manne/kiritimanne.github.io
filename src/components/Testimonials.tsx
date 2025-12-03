@@ -1,7 +1,7 @@
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Working with Kiriti has strengthened Webdox's entire revenue engine. His strategic thinking and guidance reshaped how we approach outbound, inbound, pipeline progression, and ultimately our growth flywheel across countries. He's been a critical thought partner for our growth team.",
+      quote: "Working with Kiriti has strengthened Webdox's revenue engine. His strategic thinking and guidance reshaped how we approach growth across countries, from outbound and inbound to pipeline progression and execution. He brings clarity, structure, and pattern recognition that have made him a critical thought partner for our team.",
       name: "Jose Manuel",
       title: "CEO",
       company: "Webdox"
