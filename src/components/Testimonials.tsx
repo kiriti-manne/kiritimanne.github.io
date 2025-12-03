@@ -7,7 +7,7 @@ const Testimonials = () => {
       company: "Tenor"
     },
     {
-      quote: "Their deep understanding of data infrastructure and GTM strategy helped us build a predictable revenue engine. Highly recommend for any growth-stage company.",
+      quote: "Working with Kiriti has strengthened Webdox's entire revenue engine. His strategic thinking and guidance reshaped how we approach outbound, inbound, pipeline progression, and ultimately our growth flywheel across countries. He's been a critical thought partner for our growth team.",
       name: "John Doe",
       title: "CEO",
       company: "GrowthStartup"
