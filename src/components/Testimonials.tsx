@@ -1,7 +1,7 @@
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Our outbound email results were terrible and Kiriti helped us diagnose problems across every step of the funnel, from deliverability issues to our email copy. With his help, we doubled conversion in a matter of weeks and now have a sustainable experimentation process.",
+      quote: "Our outbound email results were terrible and Kiriti helped us diagnose problems across every step of the funnel, from deliverability issues to our email copy. With his guidance, we doubled conversion in a matter of weeks and now have a sustainable experimentation process.",
       name: "Olivia",
       title: "CEO",
       company: "Tenor"
