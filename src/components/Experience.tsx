@@ -7,7 +7,7 @@ const Experience = () => {
   }, {
     icon: Zap,
     title: "Hands-On Execution",
-    description: "Not just advice—actual implementation and optimization"
+    description: "Not just advice, actual implementation and optimization"
   }, {
     icon: Database,
     title: "Data & AI",
