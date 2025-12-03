@@ -1,16 +1,16 @@
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Our outbound email results were terrible and Kiriti helped us diagnose problems across every step of the funnel, from deliverability issues to our email copy. With his guidance, we doubled conversion in a matter of weeks and now have a sustainable experimentation process.",
-      name: "Olivia",
-      title: "CEO",
-      company: "Tenor"
-    },
-    {
       quote: "Working with Kiriti has strengthened Webdox's entire revenue engine. His strategic thinking and guidance reshaped how we approach outbound, inbound, pipeline progression, and ultimately our growth flywheel across countries. He's been a critical thought partner for our growth team.",
       name: "Jose Manuel",
       title: "CEO",
       company: "Webdox"
+    },
+    {
+      quote: "Our outbound email results were terrible and Kiriti helped us diagnose problems across every step of the funnel, from deliverability issues to our email copy. With his guidance, we doubled conversion in a matter of weeks and now have a sustainable experimentation process.",
+      name: "Olivia",
+      title: "CEO",
+      company: "Tenor"
     }
   ];
 
