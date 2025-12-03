@@ -7,7 +7,7 @@ const Testimonials = () => {
       company: "Webdox"
     },
     {
-      quote: "Our outbound email results were terrible and Kiriti helped us diagnose problems across every step of the funnel, from deliverability issues to our email copy. With his guidance, we doubled conversion in a matter of weeks and now have a sustainable experimentation process.",
+      quote: "Kiriti brought clarity and structure to our outreach motion. He helped us diagnose issues across the funnel and build a repeatable experimentation process that doubled our conversion rates within weeks. His combination of strategy and tactical depth has been invaluable for Tenor.",
       name: "Olivia",
       title: "CEO",
       company: "Tenor"
