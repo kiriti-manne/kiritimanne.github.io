@@ -38,7 +38,7 @@ const Services = () => {
       items: ["High-level TAM sizing + segmentation", "Account sourcing to increase TAM coverage"]
     },
     {
-      category: "Data Modeling",
+      category: "Data Science",
       items: ["Attribution models", "Account scoring & prioritization", "Propensity-to-buy and forecasting models"]
     },
     {
