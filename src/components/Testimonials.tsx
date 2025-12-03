@@ -1,10 +1,10 @@
 const Testimonials = () => {
   const testimonials = [
     {
-      quote: "Working with them transformed our go-to-market approach. The combination of strategic thinking and hands-on execution was exactly what we needed to scale.",
-      name: "Jane Smith",
-      title: "VP of Marketing",
-      company: "TechCorp"
+      quote: "Our outbound email results were terrible and Kiriti helped us diagnose problems across every step of the funnel, from deliverability issues to our email copy. With his help, we doubled conversion in a matter of weeks and now have a sustainable experimentation process.",
+      name: "Olivia",
+      title: "CEO",
+      company: "Tenor"
     },
     {
       quote: "Their deep understanding of data infrastructure and GTM strategy helped us build a predictable revenue engine. Highly recommend for any growth-stage company.",
