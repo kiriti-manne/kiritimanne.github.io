@@ -31,7 +31,9 @@ const Experience = () => {
                 <span className="w-2 h-2 rounded-full bg-primary" />
                 Seed to IPO
               </span>
-              <span className="flex items-center gap-2">End-to-End Funnel<span className="w-2 h-2 rounded-full bg-primary" />
+              <span className="flex items-center gap-2">
+
+End-to-End Funnel<span className="w-2 h-2 rounded-full bg-primary" />
                 Full Funnel
               </span>
               <span className="flex items-center gap-2">
