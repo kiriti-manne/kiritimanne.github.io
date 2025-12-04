@@ -1,4 +1,5 @@
 import { Users, Workflow, Target, MessageSquare } from "lucide-react";
+
 const HowIWork = () => {
   const principles = [{
     icon: Users,
@@ -17,7 +18,9 @@ const HowIWork = () => {
     title: "Collaboration",
     description: "Live (video or phone) or async (Slack, email, docs, Looms, etc.)"
   }];
-  return <section id="how-i-work" className="py-24 px-6 bg-secondary/30">
+
+  return (
+    <section id="how-i-work" className="py-24 px-6 bg-secondary/30">
       <div className="container max-w-4xl">
         <div className="text-center mb-12">
           <p className="text-primary font-medium tracking-wide uppercase text-sm mb-4">
@@ -29,7 +32,8 @@ const HowIWork = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 gap-6 mb-16">
-          {principles.map((item, index) => <div key={index} className="p-6 rounded-xl card-gradient border border-border hover:border-primary hover:bg-primary/5 transition-all duration-300">
+          {principles.map((item, index) => (
+            <div key={index} className="p-6 rounded-xl card-gradient border border-border hover:border-primary hover:bg-primary/5 transition-all duration-300">
               <div className="flex items-start gap-4">
                 <div className="p-2 rounded-lg bg-primary/10 text-primary">
                   <item.icon className="w-5 h-5" />
@@ -39,17 +43,22 @@ const HowIWork = () => {
                   <p className="text-muted-foreground text-sm leading-relaxed">{item.description}</p>
                 </div>
               </div>
-            </div>)}
+            </div>
+          ))}
         </div>
 
         {/* CTA */}
         <div id="contact" className="text-center p-10 rounded-2xl border border-primary/20 bg-primary/5">
           <h3 className="text-2xl font-serif mb-4">Ready to scale your revenue engine?</h3>
-          <p className="text-muted-foreground mb-6 max-w-lg mx-auto">Let's set up a 15 minute diagnostic call. Email me at kiritimanne@gmail.com <br />
+          <p className="text-muted-foreground mb-6 max-w-lg mx-auto">
+            Let's set up a 15 minute diagnostic call.
+            <br /><br />
             Email me at <a href="mailto:kiritimanne@gmail.com" className="text-primary font-semibold hover:underline">kiritimanne@gmail.com</a>
           </p>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default HowIWork;
